@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profil</title>
+</head>
+<body>
+    <div class="container">
+        <div class="information-bar">
+            <!--lien-->
+            <ul>
+                <li class="active">
+                    actualites
+                </li>
+                <li>bio</li>
+                <li>amis</li>
+                <li>media</li>
+            </ul>
+            <!-- profil-->
+            <div class="profile">
+                <img src="image.webp" alt="">
+                <p class="name">junior</p>
+            </div>
+        </div>
+    </div>
+    <div class="display">
+    <div class="adopt">
+        <h3>mes adoptions</h3>
+    </div>
+    <div class="info">
+<h3>biographie</h3>
+<p>Je suis une intelligence artificielle développée par OpenAI appelée ChatGPT. Mon modèle 
+    est basé sur l'architecture GPT-3.5 et j'ai été formé sur une vaste gamme de données textuelles 
+    provenant d'Internet jusqu'en septembre 2021. Mon objectif est d'assister les utilisateurs en 
+    fournissant des réponses et des informations sur une variété de sujets.
+
+    En tant qu'IA, je n'ai pas de biographie personnelle car je ne suis pas une entité autonome 
+    avec une existence indépendante. Je suis un programme informatique conçu pour comprendre et 
+    générer du texte en fonction des requêtes que je reçois. Mon but principal est d'aider les 
+    utilisateurs en fournissant des réponses et des informations basées sur ma formation sur le langage naturel.
+    
+    N'hésitez pas à me poser des questions ou à demander de l'aide sur des sujets spécifiques, et je ferai de 
+    mon mieux pour vous fournir les informations dont vous avez besoin.</p>
+    </div>
+</div>
+</body>
+</html>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0px;
+    }
+    .container{
+        position: relative;
+        margin: auto;
+        width: 100%;
+        height: 250px;
+        background-image: url(back.jpg);
+        background-size: cover;
+        overflow: hidden;
+    }
+    .information-bar{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        background-color:#152728 ;
+        height: 90px;
+
+    }
+    .profile{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        bottom: 20px; left: 25px;
+    }
+    .profile img{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 5px solid #152728;
+    }
+    ul{
+        position: relative;
+        width: 100%;
+        display: flex;
+        padding-left: 200px;
+        height: 100%;
+        margin: 0;
+    }
+    li{
+        list-style: none;
+        cursor: pointer;color:#5c5e5e;
+        font-size: 1.5em;padding: 1.5em 1em;
+    }
+    li:hover{
+        color: white;
+        border-bottom: 3px solid #1488fa;
+    }
+    .name{
+        color: white;
+        margin-left: 1.5em;
+        font-size: 1.5em;
+        margin-top: 0em;
+    }
+    .adopt{
+        width: 300px;
+        height: 400px;
+        border: 4px ;
+        box-shadow: 0px 0px 4px gray;
+        border-radius: 5px;
+        padding: 10px;
+        margin: 10px;
+    }
+    .adopt h3{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 5px;
+    }
+    .info{
+        width: 100%;
+        min-height: 500px;
+        border: 4px ;
+        box-shadow: 0px 0px 4px gray;
+        padding: 10px;
+        margin: 10px;
+    }
+    .display{
+        display: flex;
+    }
+</style>
